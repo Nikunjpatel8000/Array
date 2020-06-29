@@ -1,0 +1,19 @@
+1. REGISTER (Link Text) = //li/a[@class="ico-register"]
+
+2. LOG IN (Link Text) = //li/a[@class="ico-login"]
+
+3. WISHLIST (Link Text) = //li/a[@class="ico-wishlist"]
+
+4. SHOPPING CART (Link Text) = //li[@id="topcartlink"]/a
+
+5. SEARSH (Button) = //input[@type="submit"]
+ 
+6. ADD TO CART -1 (Button) = //div[@class="item-grid"]/div[1]/div/div[2]/div[3]/div[2]/input[1]	
+
+7. COMPUTER (Link Text) = //ul[@class="top-menu notmobile"]/li/a[@href="/computers"]
+
+8. ELECTRONICS (Images) = //img[@alt="Picture for category Electronics"]	
+
+9. CURRENCY (Select Lebel) = //select[@id="customerCurrency"]
+
+10. VOTE (Button) = //input[@id="vote-poll-1"]

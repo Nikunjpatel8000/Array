@@ -1,0 +1,50 @@
+1. REGISTER (Link Text) =  //li/a[contains(@class, "ico") and contains(@href,"reg")]  ( And_With_Attributes )
+
+2. LOG IN (Link Text) = //li/a[contains(@href, "login")]  (Contains Keyword)
+
+3. WISHLIST (Link Text) = //li/a[@class="ico-wishlist"]
+
+4. SHOPPING CART (Link Text) = //a[text () ="Shopping cart"]  (Text()Locator)
+
+5. SEARSH (Button) =//input[starts-with(@type, "sub")]  (Start_With)
+
+6. SEARSH (Text Box) = //*[@type="text"]  (wildcard *)
+
+7. ADD TO CART -1 (Button) = //div[@class="item-grid"]/div[1]/div/div[2]/div[3]/div[2]/input[1]	
+
+8. ADD TO COMPARE LIST (Button) = //div[@class="item-grid"]/div[1]/div/div[2]/div[3]/div[2]/input[2]	
+
+9. WISH LIST (Button) = //div[@class="item-grid"]/div[1]/div/div[2]/div[3]/div[2]/input[3]	
+
+10. ADD TO CART -2 (Button) = //div[@class="item-grid"]/div[2]/div/div[2]/div[3]/div[2]/input[1]
+
+11. ADD TO COMPARE LIST (Button) = //div[@class="item-grid"]/div[2]/div/div[2]/div[3]/div[2]/input[2]	
+
+12. WISH LIST (Button) = //div[@class="item-grid"]/div[2]/div/div[2]/div[3]/div[2]/input[3]	
+ 
+13. ADD TO CART -3 (Button) = //div[@class="item-grid"]/div[3]/div/div[2]/div[3]/div[2]/input[1]
+
+14. ADD TO COMPARE LIST (Button) = //div[@class="item-grid"]/div[3]/div/div[2]/div[3]/div[2]/input[2]	
+
+15. WISH LIST (Button) = //div[@class="item-grid"]/div[3]/div/div[2]/div[3]/div[2]/input[3]	
+ 
+16. ADD TO CART -4 (Button) = //div[@class="item-grid"]/div[4]/div/div[2]/div[3]/div[2]/input[1]
+
+17. ADD TO COMPARE LIST (Button) = //div[@class="item-grid"]/div[4]/div/div[2]/div[3]/div[2]/input[2]	
+
+18. WISH LIST (Button) = //div[@class="item-grid"]/div[4]/div/div[2]/div[3]/div[2]/input[3]
+
+
+REGISTER_PAGE
+
+19. First name (Text Box) = //div[@class="fieldset"]//div[2]/div[2]/input	
+
+20. Last name (Text Box) - //div[@class="fieldset"]//div[2]/div[3]/input
+
+21. Email (Text Box) - //div[@class="fieldset"]//div[2]/div[5]/input
+
+22. Password (Text Box) = //div/form[@method="post"]/div[4]/div[2]/div/input
+
+23. Confirm password (Text Box) = //div/form[@method="post"]/div[4]/div[2]/div[2]/input
+ 
+ 
